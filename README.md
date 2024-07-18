@@ -1,22 +1,5 @@
 # My Arch Install
 
-## Additional packages
-
--   openssh
--   borg
--   git
--   wget
--   curl
--   neofetch
--   ufw
--   vim
--   nvim
--   nano
-
-optional
--   npm ? (per `npm install -g @bitwarden/cli` visto che bitwarden-cli di pacman
-    usa nodejs-lts-\* che va in conflitto con nodejs)
-
 ## Setup
 
 Install npm if not previously installed
