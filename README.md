@@ -1,5 +1,27 @@
 # My Arch Install
 
+## Archinstall
+
+First of all, disable the annoying pc speaker with
+```
+rmmod pcspkr
+rmmod snd_pcsp
+```
+
+Connect to the wifi. To do this, first execute `iwctl` to enter `iwd`. Then, inside of `iwd` find the device with
+```
+station list
+```
+and then connect to network with
+```
+station <DEVICE> connect <NETWORD_SSID>
+```
+
+Download the configuration file with
+```
+curl -LJO "https://raw.githubusercontent.com/Fran314/my-arch-install/main/user_configuration.json"
+```
+
 ## Setup
 
 Install npm if not previously installed
