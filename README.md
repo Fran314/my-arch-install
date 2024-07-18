@@ -66,4 +66,10 @@ bw get notes regice-latias-projects > ~/.local/secrets/borg/regice/projects
 bw get notes regice-latias-various > ~/.local/secrets/borg/regice/various
 ```
 
+To copy the content of a backup locally, run
+```
+export BORG_REPO="$(cat ~/.local/secrets/borg/regice/rootdir)/config"
+export BORG_PASSPHRASE=$(cat ~/.local/secrets/borg/regice/config)
+```
+
 aggiungi hdd a fstab
