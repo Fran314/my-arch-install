@@ -1,0 +1,68 @@
+{
+    "additional-repositories": [
+        "multilib"
+    ],
+    "archinstall-language": "English",
+    "audio_config": {
+        "audio": "pulseaudio"
+    },
+    "bootloader": "Systemd-boot",
+    "config_version": "2.8.1",
+    "debug": false,
+    "hostname": "latias",
+    "kernels": [
+        "linux",
+        "linux-lts"
+    ],
+    "locale_config": {
+        "kb_layout": "it",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_US"
+    },
+    "network_config": {
+        "type": "nm"
+    },
+    "no_pkg_lookups": false,
+    "ntp": true,
+    "offline": false,
+    "packages": [
+        "git",
+        "curl",
+        "smartmontools",
+        "openssh",
+        "htop",
+        "wireless_tools",
+        "wpa_supplicant",
+        "ufw",
+        "wget",
+        "nano",
+        "borg",
+        "neofetch",
+        "vim",
+        "iwd",
+        "xdg-utils",
+        "neovim"
+    ],
+    "parallel downloads": 0,
+    "profile_config": {
+        "gfx_driver": "All open-source",
+        "greeter": "ly",
+        "profile": {
+            "custom_settings": {
+                "Gnome": {}
+            },
+            "details": [
+                "Gnome"
+            ],
+            "main": "Desktop"
+        }
+    },
+    "script": "guided",
+    "silent": false,
+    "skip_ntp": false,
+    "skip_version_check": false,
+    "swap": true,
+    "timezone": "Europe/Rome",
+    "uki": false,
+    "version": "2.8.1"
+}
