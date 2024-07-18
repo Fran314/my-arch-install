@@ -13,6 +13,7 @@
 -   nvim
 -   nano
 
+optional
 -   npm ? (per `npm install -g @bitwarden/cli` visto che bitwarden-cli di pacman
     usa nodejs-lts-\* che va in conflitto con nodejs)
 
