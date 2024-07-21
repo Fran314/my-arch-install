@@ -8,9 +8,9 @@ rmmod pcspkr
 rmmod snd_pcsp
 ```
 
-S3condly, set the keyboard layout
+Secondly, set the keyboard layout
 ```
-località set-keymap --no-convert it
+localectl set-keymap --no-convert it
 ```
 
 Connect to the wifi. To do this, first execute `iwctl` to enter `iwd`. Then, inside of `iwd` find the device with
