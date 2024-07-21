@@ -41,7 +41,9 @@
         "vim",
         "iwd",
         "xdg-utils",
-        "neovim"
+        "neovim",
+        "less",
+        "imagemagick"
     ],
     "parallel downloads": 0,
     "profile_config": {
